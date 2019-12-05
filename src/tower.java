@@ -1,4 +1,4 @@
-class Tower extends entity{
+class Tower extends Entity{
     int damage;
     int range;
 
