@@ -11,7 +11,7 @@ public class Position {
         playingField = new Entity[length][width];
     }
 
-    Entity[][] getPosition() {  //might need a better name
+    public Entity[][] getPlayingField() {  //might need a better name
     return this.playingField;
     }
 

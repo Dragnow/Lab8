@@ -1,10 +1,8 @@
 
 public class TowerDefenceGame {
-
-    //todo monsters     arraylist[]
-    //int monstersMax;
-    //todo towers       arraylist[]
-    //int towersMax;
+    int roundsTotal;
+    // ev int monstersMax;
+    //ev int towersMax;
 
     void towerDefenceGame(){
 
@@ -13,10 +11,26 @@ public class TowerDefenceGame {
 
 
     //game
-    //todo void playRound() {}
+    /*
+    void playRound() {
+        //todo
+
+        for(int i = 0;i < Position.getPlayingField().length ;i++) {
+            for(int j = 0;j < Position.getPlayingField()[0].length ;j++) {
+                if (null != Position.getPlayingField()[i][j]) {
+                    //todo do something
+                    //if Entity is found, do its action
+
+                }
+            }
+        }
     //loop thought position
     //if Entity is found, do its action
     //continue loop to end of position
+    }*/
+
+    //todo void nextTurn()
+    // roundsTotal ++1;
 
     //todo boolean isGameOver()
     //check for monster on position[int targetRow][int targetCol]
@@ -40,4 +54,4 @@ public class TowerDefenceGame {
 
 
 
-        }
+}
