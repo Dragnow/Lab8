@@ -1,36 +1,40 @@
 
 public class TowerDefenceGame {
     int roundsTotal;
+    Position playingfield;
     // ev int monstersMax;
     //ev int towersMax;
 
-    void towerDefenceGame(){
-
+    void towerDefenceGame(boolean[][] passable){
+        Position playingfield = new Position(passable);
     }
 
 
-
     //game
-    /*
+
     void playRound() {
         //todo
 
-        for(int i = 0;i < Position.getPlayingField().length ;i++) {
-            for(int j = 0;j < Position.getPlayingField()[0].length ;j++) {
-                if (null != Position.getPlayingField()[i][j]) {
-                    //todo do something
-                    //if Entity is found, do its action
+        for(int i = 0;i < playingfield.getPlayingField().length ;i++) {         //loop thought position
+            for(int j = 0;j < playingfield.getPlayingField()[0].length ;j++) {
+                if (null != playingfield.getPlayingField()[i][j]) {             //if Entity is found, do its action
+                    //todo, do something
+                    //check if its a tower or monster (maybe check array:en passable)
 
                 }
             }
         }
-    //loop thought position
-    //if Entity is found, do its action
-    //continue loop to end of position
-    }*/
 
-    //todo void nextTurn()
-    // roundsTotal ++1;
+        //continue loop to end of position
+
+        nextRound();
+    }
+
+    //adds one to roundsTotal
+    void nextRound() {
+        roundsTotal += 1;
+    }
+
 
     //todo boolean isGameOver()
     //check for monster on position[int targetRow][int targetCol]

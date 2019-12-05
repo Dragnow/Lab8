@@ -5,7 +5,7 @@ public class Position {
     Entity[][] playingField;
 
 
-    public void Position(boolean[][] passable) {
+    public Position(boolean[][] passable) {
         int length = passable.length;
         int width = passable[0].length;
         playingField = new Entity[length][width];
