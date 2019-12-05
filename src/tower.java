@@ -1,4 +1,4 @@
-public class tower {
+class Tower extends entity{
     int damage;
     int range;
 

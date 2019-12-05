@@ -1,12 +1,13 @@
 import java.util.Random;
 
-public class enemy {
+class Enemy extends Entity{
     int health;
     String previousPosition; //(left, right, up, down)
 
 
-
+    //constructor - constructs Enemy
     void enemy() {
+
         this.setHealth(3); //base health
     }
 
