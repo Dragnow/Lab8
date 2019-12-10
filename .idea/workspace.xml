@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38fa7c29-9728-45cb-9b1d-f9f0ea376954" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="38fa7c29-9728-45cb-9b1d-f9f0ea376954" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/towerDefenceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TowerDefenceGame.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +23,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UVpJo0ij5D4VoQLDPI5VhR0FoM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -32,18 +41,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\object-oriented programming\java\lab8\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="GUITowerDefence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -82,6 +79,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Mans\AppData\Roaming\Subversion</configuration>
   </component>
@@ -100,6 +109,7 @@
       <workItem from="1575543675179" duration="4370000" />
       <workItem from="1575554033889" duration="292000" />
       <workItem from="1575965726455" duration="9874000" />
+      <workItem from="1575977919366" duration="339000" />
     </task>
     <servers />
   </component>
@@ -118,5 +128,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575977962472">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1575977962472" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575978003341">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1575978003341" />
   </component>
 </project>
