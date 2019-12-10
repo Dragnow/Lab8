@@ -72,6 +72,7 @@ public class GUITowerDefence extends JFrame {
         if (game.getPosition().getCurrentPlayingField()[row][col] != null) {
           positionPanel = buildMonsterPanel(1);  //todo get exact monster health
           System.out.print("im here");
+          mainPanel.add(positionPanel);
         }   //todo check for monster or tower
         else
         {
@@ -89,6 +90,7 @@ public class GUITowerDefence extends JFrame {
         positionPanels.put(position, positionPanel);
       }
     }
+
 
     // Start the timer and set it to call the event loop each second
     EventLoop loop = new EventLoop();

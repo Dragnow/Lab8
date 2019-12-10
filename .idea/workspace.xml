@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38fa7c29-9728-45cb-9b1d-f9f0ea376954" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUITowerDefence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUITowerDefence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/towerDefenceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TowerDefenceGame.java" afterDir="false" />
@@ -108,12 +109,9 @@
       <workItem from="1575454509021" duration="1783000" />
       <workItem from="1575543675179" duration="4370000" />
       <workItem from="1575554033889" duration="292000" />
-<<<<<<< HEAD
       <workItem from="1575965726455" duration="10714000" />
-=======
       <workItem from="1575965726455" duration="9874000" />
       <workItem from="1575977919366" duration="339000" />
->>>>>>> 366d6c76c8d03b44accdc89328b0e16fe9412b1b
     </task>
     <servers />
   </component>
@@ -142,5 +140,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1575978003341" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1575982228145">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575982228145" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1575982228145">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575982228145" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1575982228144">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575982228144" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1575982228145">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575982228145" />
   </component>
 </project>
