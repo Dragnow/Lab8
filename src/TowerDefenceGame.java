@@ -19,10 +19,10 @@ public class TowerDefenceGame {
     void playRound() {
         //todo
 
-        for(int i = 0; i < position.getLength() ; i++) {         //loop thought position
+        for(int i = 0; i < position.getLength() ; i++) {                             //loop thought position
             for(int j = 0; j < position.getWidth() ; j++) {
-                if (null != position.getCurrentPlayingField()[i][j]) {             //if Entity is found, do its action
-                    System.out.print("found an entity here");
+                if (null != position.getCurrentPlayingField()[i][j]) {                //if Entity is found, do its action
+                    System.out.print("Entity found");
                     //todo, do something
                     //check if its a tower or monster (maybe check array:en passable)
 
@@ -54,7 +54,7 @@ public class TowerDefenceGame {
     //monster
     void newEnemy() {
         //todo
-        position.getCurrentPlayingField()[level.startRow][level.getStartCol()] = new Enemy(3);
+        position.getCurrentPlayingField()[level.getStartRow()][level.getStartCol()] = new Enemy(3);
 
         //get starting position
         //create enemy at position

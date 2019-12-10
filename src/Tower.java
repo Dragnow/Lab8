@@ -4,9 +4,9 @@ class Tower extends Entity{
 
     //todo position[2] //0 = row, 1 = col
 
-    Tower() {
-        damage =1;      //base damage
-        range = 1;      //base range
+    public Tower(int dmg, int rg) {
+        this.damage = dmg = 1;       //base damage
+        this.range = rg;             //base range
     }
 
     /*void tower(int newDamage) {
