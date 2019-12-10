@@ -29,7 +29,7 @@ public class GUITowerDefence extends JFrame {
 
     // Change this to try out different levels
     TowerDefenceLevel level = TowerDefenceLevel.buildDefaultLevel();
-
+      System.out.println(level.getHeight());
     // Create the GUI and set it to be visible
     GUITowerDefence gui = new GUITowerDefence(level);
     gui.setVisible(true);
@@ -57,6 +57,9 @@ public class GUITowerDefence extends JFrame {
       for (int col = 0; col < levelWidth; col++) {
         JPanel positionPanel = new JPanel();
         positionPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+          if (!level.getPassable()[row][col]) {
+            positionPanel.setBackground( Color.green );
+          }
         mainPanel.add(positionPanel);
 
         // Add the panel to the 'positionPanels' map so we can access it

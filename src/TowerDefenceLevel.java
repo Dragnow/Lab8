@@ -1,5 +1,11 @@
 public class TowerDefenceLevel {
-    //todo level        arrayarray[][]
+    int height;
+    int width;
+    boolean[][] passable;
+    int startRow;
+    int startCol;
+    int targetRow;
+    int targetCol;
 
 
 
@@ -16,16 +22,29 @@ public class TowerDefenceLevel {
     public TowerDefenceLevel(int height, int width, boolean[][] passable,
                              int startRow, int startCol,
                              int targetRow, int targetCol) {
-        // TODO
+
+        this.height = height;
+        this.width = width;
+        this.passable = passable;
+        this.startRow = startRow;
+        this.startCol = startCol;
+        this.targetRow = targetRow;
+        this.targetCol = targetCol;
+
     }
 
     public int getHeight() {
-        return 3; // TODO
+        return height; // TODO
     }
 
     public int getWidth() {
-        return 8; // TODO
+        return width; // TODO
     }
+
+    public boolean[][] getPassable() {
+        return this.passable;
+    }
+
 
     public Position getPosition(int row, int col) {
         return null; // TODO
