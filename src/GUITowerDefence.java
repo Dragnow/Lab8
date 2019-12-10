@@ -69,16 +69,18 @@ public class GUITowerDefence extends JFrame {
     for (int row = 0; row < levelHeight; row++) {
       for (int col = 0; col < levelWidth; col++) {
         JPanel positionPanel = new JPanel();
-
-        positionPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+        if (game.getPosition().getCurrentPlayingField()[row][col] != null) {
+          positionPanel = buildMonsterPanel(1);  //todo get exact monster health
+          System.out.print("im here");
+        }   //todo check for monster or tower
+        else
+        {
           if (!level.getPassable()[row][col]) {
             positionPanel.setBackground( Color.green );
           }
+        }
+        positionPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 
-          //todo check for monster or tower
-          if (game.getPosition().getCurrentPlayingField()[row][col] != null) {
-            JPanel monsterPannel = buildMonsterPanel(1);  //todo get exact monster health
-          }
 
         mainPanel.add(positionPanel);
         // Add the panel to the 'positionPanels' map so we can access it
