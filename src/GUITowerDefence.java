@@ -26,13 +26,24 @@ public class GUITowerDefence extends JFrame {
   private TowerDefenceLevel level;
 
   public static void main(String[] args) {
-
+    //1 startup:
     // Change this to try out different levels
     TowerDefenceLevel level = TowerDefenceLevel.buildDefaultLevel();
-      System.out.println(level.getHeight());
+      //System.out.println(level.getHeight());
+
     // Create the GUI and set it to be visible
     GUITowerDefence gui = new GUITowerDefence(level);
     gui.setVisible(true);
+
+    //game startup
+    TowerDefenceGame game = new TowerDefenceGame(level.getPassable());
+
+    //2 game logic itself:
+    //todo something with the turn timer
+    //play round
+
+      game.playRound();
+
 
   }
 

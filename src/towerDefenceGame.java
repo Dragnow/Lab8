@@ -2,11 +2,13 @@
 public class TowerDefenceGame {
     int roundsTotal;
     Position playingfield;
+    boolean[][] passable;
     // ev int monstersMax;
     //ev int towersMax;
 
-    void towerDefenceGame(boolean[][] passable){
-        Position playingfield = new Position(passable);
+    public TowerDefenceGame(boolean[][] passable) {
+        this.playingfield = new Position(passable);
+        this.passable = passable;
     }
 
 
@@ -27,12 +29,12 @@ public class TowerDefenceGame {
 
         //continue loop to end of position
 
-        nextRound();
+        addRound(1);
     }
 
     //adds one to roundsTotal
-    void nextRound() {
-        roundsTotal += 1;
+    void addRound(int number) {
+        roundsTotal += number;
     }
 
 
