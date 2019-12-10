@@ -15,7 +15,7 @@ class Enemy extends Entity{
         return monsterHealth;
     }
 
-    void damageMonster(int damage) {
+    void setMonsterHealth(int damage) {
         monsterHealth -= damage;
     }
 
@@ -34,7 +34,7 @@ class Enemy extends Entity{
 
     String direction() {
         String output = "";
-        String[] directions = {"left", "right", "up", "down"};
+        String[] directions = new String[]{"left", "right", "up", "down"};
 
         do {
             output = directions[randomValue(4)];
