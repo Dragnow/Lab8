@@ -2,17 +2,27 @@
 
 
 public class Position {
-    Entity[][] playingField;
-
+    Entity[][] currentPlayingField;
+    int length;
+    int width;
 
     public Position(boolean[][] passable) {
-        int length = passable.length;
-        int width = passable[0].length;
-        playingField = new Entity[length][width];
+        length = passable.length;
+        width = passable[0].length;
+        currentPlayingField = new Entity[length][width];
     }
 
-    public Entity[][] getPlayingField() {  //might need a better name
-    return this.playingField;
+
+    public int getLength() {
+        return length;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public Entity[][] getCurrentPlayingField() {
+        return this.currentPlayingField;
     }
 
 

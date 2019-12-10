@@ -1,14 +1,17 @@
 
 public class TowerDefenceGame {
     int roundsTotal;
-    Position playingfield;
+    Position postion;
     boolean[][] passable;
+    TowerDefenceLevel level;
     // ev int monstersMax;
     //ev int towersMax;
 
-    public TowerDefenceGame(boolean[][] passable) {
-        this.playingfield = new Position(passable);
+    public TowerDefenceGame(boolean[][] passable, TowerDefenceLevel level) {
+        this.roundsTotal = 0;
+        this.postion = new Position(passable);
         this.passable = passable;
+        this.level = level;
     }
 
 
@@ -17,9 +20,10 @@ public class TowerDefenceGame {
     void playRound() {
         //todo
 
-        for(int i = 0;i < playingfield.getPlayingField().length ;i++) {         //loop thought position
-            for(int j = 0;j < playingfield.getPlayingField()[0].length ;j++) {
-                if (null != playingfield.getPlayingField()[i][j]) {             //if Entity is found, do its action
+        for(int i = 0;i < postion.getLength() ;i++) {         //loop thought position
+            for(int j = 0;j < postion.getWidth() ;j++) {
+                if (null != postion.getCurrentPlayingField()[i][j]) {             //if Entity is found, do its action
+                    System.out.print("found an entity here");
                     //todo, do something
                     //check if its a tower or monster (maybe check array:en passable)
 
@@ -29,6 +33,9 @@ public class TowerDefenceGame {
 
         //continue loop to end of position
 
+        //check for victory //todo
+        newEnemy();
+        System.out.print(postion.getCurrentPlayingField()[level.startRow][level.getStartCol()]);
         addRound(1);
     }
 
@@ -37,12 +44,23 @@ public class TowerDefenceGame {
         roundsTotal += number;
     }
 
+    public Position getPostion() {
+        return postion;
+    }
 
     //todo boolean isGameOver()
     //check for monster on position[int targetRow][int targetCol]
     //return true or false
 
     //monster
+    void newEnemy() {
+        //todo
+        postion.getCurrentPlayingField()[level.startRow][level.getStartCol()] = new Enemy();
+
+        //get starting position
+        //create enemy at position
+    }
+
     //todo void newEnemy(health)
     //check position[int startRow][int startCol] to know if it can spawn a monster
     //or
@@ -54,6 +72,8 @@ public class TowerDefenceGame {
     //todo damageMonster
     //50% chanse to damage
     //  -todo isDead
+
+
 
     //tower
     //todo new tower

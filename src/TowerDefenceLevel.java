@@ -41,6 +41,22 @@ public class TowerDefenceLevel {
         return width; // TODO
     }
 
+    public int getStartCol() {
+        return startCol;
+    }
+
+    public int getStartRow() {
+        return startRow;
+    }
+
+    public int getTargetCol() {
+        return targetCol;
+    }
+
+    public int getTargetRow() {
+        return targetRow;
+    }
+
     public boolean[][] getPassable() {
         return this.passable;
     }

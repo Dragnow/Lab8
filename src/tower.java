@@ -4,7 +4,7 @@ class Tower extends Entity{
 
     //todo position[2] //0 = row, 1 = col
 
-    void tower() {
+    Tower() {
         damage =1;      //base damage
         range = 1;      //base range
     }

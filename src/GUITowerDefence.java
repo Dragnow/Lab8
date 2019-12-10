@@ -27,27 +27,29 @@ public class GUITowerDefence extends JFrame {
 
   public static void main(String[] args) {
     //1 startup:
+
     // Change this to try out different levels
     TowerDefenceLevel level = TowerDefenceLevel.buildDefaultLevel();
-      //System.out.println(level.getHeight());
-
-    // Create the GUI and set it to be visible
-    GUITowerDefence gui = new GUITowerDefence(level);
-    gui.setVisible(true);
+    //System.out.println(level.getHeight());
 
     //game startup
-    TowerDefenceGame game = new TowerDefenceGame(level.getPassable());
+    TowerDefenceGame game = new TowerDefenceGame(level.getPassable(), level);
+
+    // Create the GUI and set it to be visible
+    GUITowerDefence gui = new GUITowerDefence(level, game);
+    gui.setVisible(true);
+
+
+    //todo start of loop
+
 
     //2 game logic itself:
     //todo something with the turn timer
-    //play round
 
-      game.playRound();
-
-
+    game.playRound(); //todo
   }
 
-  public GUITowerDefence(TowerDefenceLevel level) {
+  public GUITowerDefence(TowerDefenceLevel level, TowerDefenceGame game) {
 
     this.setTitle("Tower Defence");
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -67,12 +69,18 @@ public class GUITowerDefence extends JFrame {
     for (int row = 0; row < levelHeight; row++) {
       for (int col = 0; col < levelWidth; col++) {
         JPanel positionPanel = new JPanel();
+
         positionPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
           if (!level.getPassable()[row][col]) {
             positionPanel.setBackground( Color.green );
           }
-        mainPanel.add(positionPanel);
 
+          //todo check for monster or tower
+          if (game.getPostion().getCurrentPlayingField()[row][col] != null) {
+            JPanel monsterPannel = buildMonsterPanel(1);  //todo get exact monster health
+          }
+
+        mainPanel.add(positionPanel);
         // Add the panel to the 'positionPanels' map so we can access it
         // later (with positionPanels.get(position)).
         Position position = level.getPosition(row, col);

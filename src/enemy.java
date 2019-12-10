@@ -6,7 +6,7 @@ class Enemy extends Entity{
 
 
     //constructor - constructs Enemy
-    void enemy() {
+    public Enemy() {
 
         this.setHealth(3); //base health
     }
