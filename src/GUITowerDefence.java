@@ -76,7 +76,7 @@ public class GUITowerDefence extends JFrame {
           }
 
           //todo check for monster or tower
-          if (game.getPostion().getCurrentPlayingField()[row][col] != null) {
+          if (game.getPosition().getCurrentPlayingField()[row][col] != null) {
             JPanel monsterPannel = buildMonsterPanel(1);  //todo get exact monster health
           }
 

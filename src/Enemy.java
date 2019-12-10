@@ -1,22 +1,22 @@
 import java.util.Random;
 
 class Enemy extends Entity{
-    int health;
+    int monsterHealth;
     String previousPosition; //(left, right, up, down)
 
 
     //constructor - constructs Enemy
-    public Enemy() {
+    public Enemy(int health) {
 
-        this.setHealth(3); //base health
+        this.monsterHealth = health; //base health
     }
 
-    int getHealth() {
-        return health;
+    int getMonsterHealth() {
+        return monsterHealth;
     }
 
-    void setHealth(int damage) {
-        health -= damage;
+    void setMonsterHealth(int damage) {
+        monsterHealth -= damage;
     }
 
     public int randomValue(int value){

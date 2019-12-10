@@ -1,6 +1,6 @@
 public class TowerDefenceGame {
     int roundsTotal;
-    Position postion;
+    Position position;
     boolean[][] passable;
     TowerDefenceLevel level;
     // ev int monstersMax;
@@ -8,7 +8,7 @@ public class TowerDefenceGame {
 
     public TowerDefenceGame(boolean[][] passable, TowerDefenceLevel level) {
         this.roundsTotal = 0;
-        this.postion = new Position(passable);
+        this.position = new Position(passable);
         this.passable = passable;
         this.level = level;
     }
@@ -19,9 +19,9 @@ public class TowerDefenceGame {
     void playRound() {
         //todo
 
-        for(int i = 0;i < postion.getLength() ;i++) {         //loop thought position
-            for(int j = 0;j < postion.getWidth() ;j++) {
-                if (null != postion.getCurrentPlayingField()[i][j]) {             //if Entity is found, do its action
+        for(int i = 0; i < position.getLength() ; i++) {         //loop thought position
+            for(int j = 0; j < position.getWidth() ; j++) {
+                if (null != position.getCurrentPlayingField()[i][j]) {             //if Entity is found, do its action
                     System.out.print("found an entity here");
                     //todo, do something
                     //check if its a tower or monster (maybe check array:en passable)
@@ -34,7 +34,7 @@ public class TowerDefenceGame {
 
         //check for victory //todo
         newEnemy();
-        System.out.print(postion.getCurrentPlayingField()[level.startRow][level.getStartCol()]);
+        System.out.print(position.getCurrentPlayingField()[level.startRow][level.getStartCol()]);
         addRound(1);
     }
 
@@ -43,8 +43,8 @@ public class TowerDefenceGame {
         roundsTotal += number;
     }
 
-    public Position getPostion() {
-        return postion;
+    public Position getPosition() {
+        return position;
     }
 
     //todo boolean isGameOver()
@@ -54,7 +54,7 @@ public class TowerDefenceGame {
     //monster
     void newEnemy() {
         //todo
-        postion.getCurrentPlayingField()[level.startRow][level.getStartCol()] = new Enemy();
+        position.getCurrentPlayingField()[level.startRow][level.getStartCol()] = new Enemy(3);
 
         //get starting position
         //create enemy at position
