@@ -33,7 +33,7 @@ public class TowerDefenceGame {
         //continue loop to end of position
 
         //check for victory //todo
-        newEnemy();     //todo move to gui or some other place, or add spawning conditions
+        //newEnemy();     //todo move to gui or some other place, or add spawning conditions
         System.out.print(position.getCurrentPlayingField()[level.startRow][level.getStartCol()]);
         addRound(1);
     }

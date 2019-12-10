@@ -34,12 +34,12 @@ public class GUITowerDefence extends JFrame {
 
     //game startup
     TowerDefenceGame game = new TowerDefenceGame(level.getPassable(), level);
-
+    game.newEnemy();
     // Create the GUI and set it to be visible
     GUITowerDefence gui = new GUITowerDefence(level, game);
     gui.setVisible(true);
 
-
+     //creates a new enemy at the start of the game
     //todo start of loop
 
 
@@ -71,7 +71,7 @@ public class GUITowerDefence extends JFrame {
         JPanel positionPanel = new JPanel();
         if (game.getPosition().getCurrentPlayingField()[row][col] != null) {
           positionPanel = buildMonsterPanel(1);  //todo get exact monster health
-          System.out.print("im here");
+          //System.out.print("im here");
           mainPanel.add(positionPanel);
         }   //todo check for monster or tower
         else
