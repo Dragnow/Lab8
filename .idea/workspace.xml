@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="38fa7c29-9728-45cb-9b1d-f9f0ea376954" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+    <list default="true" id="38fa7c29-9728-45cb-9b1d-f9f0ea376954" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUITowerDefence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUITowerDefence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/towerDefenceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TowerDefenceGame.java" afterDir="false" />
+    </list>
+>>>>>>> b2e61fb95f5a22258fa05a7d97de9f2d5d9527a1
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +109,13 @@
       <workItem from="1575454509021" duration="1783000" />
       <workItem from="1575543675179" duration="4370000" />
       <workItem from="1575554033889" duration="292000" />
+<<<<<<< HEAD
       <workItem from="1575965726455" duration="13732000" />
+=======
+      <workItem from="1575965726455" duration="10714000" />
+      <workItem from="1575965726455" duration="9874000" />
+      <workItem from="1575977919366" duration="339000" />
+>>>>>>> b2e61fb95f5a22258fa05a7d97de9f2d5d9527a1
     </task>
     <servers />
   </component>
@@ -119,4 +135,33 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575977962472">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1575977962472" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575978003341">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1575978003341" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1575982228145">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575982228145" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1575982228145">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575982228145" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1575982228144">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575982228144" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1575982228145">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575982228145" />
+  </component>
+>>>>>>> b2e61fb95f5a22258fa05a7d97de9f2d5d9527a1
 </project>
