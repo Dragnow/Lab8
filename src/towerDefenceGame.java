@@ -1,4 +1,3 @@
-
 public class TowerDefenceGame {
     int roundsTotal;
     Position postion;
