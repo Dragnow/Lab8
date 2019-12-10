@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="38fa7c29-9728-45cb-9b1d-f9f0ea376954" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/towerDefenceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TowerDefenceGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUITowerDefence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUITowerDefence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TowerDefenceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TowerDefenceGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1575543675179" duration="4370000" />
       <workItem from="1575554033889" duration="292000" />
       <workItem from="1575965726455" duration="9874000" />
-      <workItem from="1575977919366" duration="339000" />
+      <workItem from="1575977919366" duration="2230000" />
     </task>
     <servers />
   </component>
@@ -134,6 +134,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1575977962472" />
+    <state x="356" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575979098731">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="356" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1575979098731" />
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575978003341">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
