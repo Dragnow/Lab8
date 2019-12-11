@@ -39,14 +39,10 @@ public class GUITowerDefence extends JFrame {
     GUITowerDefence gui = new GUITowerDefence(level, game);
     gui.setVisible(true);
 
-     //creates a new enemy at the start of the game
-    //todo start of loop
-
-
-    //2 game logic itself:
-    //todo something with the turn timer
+    //game logic itself:
 
     game.playRound(); //todo
+
   }
 
   public GUITowerDefence(TowerDefenceLevel level, TowerDefenceGame game) {
@@ -106,8 +102,10 @@ public class GUITowerDefence extends JFrame {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
 
-      // Here you can implement the logic to advance the game by one step
+      // Here you can implement the logic to advance the game by one step     //todo move logic to here...?
       // and update the GUI.
+
+
 
       boolean gameOver = false; // TODO
 
@@ -153,6 +151,6 @@ public class GUITowerDefence extends JFrame {
     return panel;
   }
 
-  public static class enemy {
-  }
+  //public static class enemy {
+  //}
 }
